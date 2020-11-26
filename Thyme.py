@@ -69,7 +69,7 @@ while True:
     open(file,"w")
     request.urlretrieve(image_url,file)
   if thyme[0]=="help":
-    print("cd\n   Change Files\nburn\n   Create Files\ndelete\n   Delete Files\nappend\n   Add text to files.\nclear\n   Clears the whole screen.\nimage\n   Creates a file with the image.\nhelp\n   Brings up this text.")
+    print("cd\n   Change Files\nburn\n   Create Files\ndelete\n   Delete Files\nappend\n   Add text to files.\nclear\n   Clears the whole screen.\nimage\n   Creates a file with the image.\nhelp\n   Brings up this text.\nreplace\n   Allows you to replace certain text in a file\npython\n   Allows you to run print commands ONLY.\nterminate\n   Does not take arguments, terminates the program.")
   if thyme[0]=="replace":
     file=thyme[1]
     replace=thyme[2]
