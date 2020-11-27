@@ -85,12 +85,6 @@ while True:
       f.close()
     else:
      print("There is no such word or character in this file.")
-  if thyme[0] not in commands:
-    print("-Thyme:"+thyme[0],": Not found.",end='')
-    sys.stdout.flush()
-    time.sleep(3)
-    
-    print('\renter valid command' + ' ' * len(thyme[0]))
   if thyme[0]=="python":
     
     print("NO VARIABLES. SIMPLE PRINT COMMANDS ONLY.")
